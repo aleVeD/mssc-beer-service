@@ -1,5 +1,6 @@
 package org.springframework.web.model;
 
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 

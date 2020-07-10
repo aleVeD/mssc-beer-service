@@ -13,7 +13,6 @@ public class BeerServiceImpl implements BeerService {
   public BeerDto getBeerById(UUID beerId) {
     return BeerDto.builder().id(UUID.randomUUID())
             .beerName("Cristal")
-            .beerStyle("dorada")
             .build();
   }
 
